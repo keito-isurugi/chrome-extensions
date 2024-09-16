@@ -1,4 +1,4 @@
-# Google　Chromeの拡張機能
+# Google Chromeの拡張機能
 ## enhack
 - [enhack](https://enhack.app/app/#!/index/you/parser/)の未ログイン時の英文解析を回数制限無しで使用できるようにする拡張機能
 ## comfortable-browsing

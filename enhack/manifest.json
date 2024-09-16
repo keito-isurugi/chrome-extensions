@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "enhack extension",
+    "version": "1.0.0",
+    "description": "enhackの未ログインユーザーの英文解析の回数制限を無くします",
+    "action": {},
+    "content_scripts": [{
+      "matches": ["https://enhack.app/*"],
+      "js": [
+        "content_script.js"
+      ]
+    }]
+  }
+  

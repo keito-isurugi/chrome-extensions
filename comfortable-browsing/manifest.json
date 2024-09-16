@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Comfortable Browsing",
+  "version": "1.0.0",
+  "description": "Webサイトの閲覧を快適にするものです。オプションにて適用するサイトのURLを指定して使用します。",
+  "action": {},
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "content_script.js"
+    ]
+  }],
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html"
+}
